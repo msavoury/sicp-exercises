@@ -1,0 +1,7 @@
+(define (exponent b n)
+  (cond ((= b 0) 0)
+		((= n 0) 1)
+		((= n 1) b)
+		(else (* b (exponent b (- n 1))))
+  )
+)  
