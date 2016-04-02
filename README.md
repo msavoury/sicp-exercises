@@ -53,3 +53,12 @@ The interpreter evaluates the expressions <e> one at a time, in left-to-right or
 ;; function that takes a number and adds 4 to it
 (lambda (x) (+ x 4))
 ```
+
+*let*  - Used for defining placeholder variables
+```
+;General form:
+(let ((<var 1 > <exp 1 >)
+      (<var 2 > <exp 2 >) 
+      (<var n > <exp n >))
+<body>)
+```
