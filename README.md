@@ -46,3 +46,10 @@ The interpreter evaluates the expressions <e> one at a time, in left-to-right or
 The interpreter evaluates the expressions <e> one at a time, in left-to-right order. If any <e> evaluates to a true value, that value is returned as the value of the or expression, and the rest of the <e>’s are not evaluated. If all <e>’s evaluate to false, the value of theorexpression is false.
 (not <e>)
 ```
+
+*lambda*
+```
+(lambda (<formal-parameters>) <body>)
+;; function that takes a number and adds 4 to it
+(lambda (x) (+ x 4))
+```
